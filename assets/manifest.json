@@ -1,0 +1,879 @@
+{
+"angrypig": {
+"hit_1": {
+"file": "res://assets/enemies/angrypig/hit_1.png",
+"fw": 36,
+"fh": 30,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"hit_2": {
+"file": "res://assets/enemies/angrypig/hit_2.png",
+"fw": 36,
+"fh": 30,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/angrypig/idle.png",
+"fw": 36,
+"fh": 30,
+"n": 9,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/angrypig/run.png",
+"fw": 36,
+"fh": 30,
+"n": 12,
+"fps": 16,
+"loop": true
+},
+"walk": {
+"file": "res://assets/enemies/angrypig/walk.png",
+"fw": 36,
+"fh": 30,
+"n": 16,
+"fps": 16,
+"loop": true
+}
+},
+"bat": {
+"ceiling_in": {
+"file": "res://assets/enemies/bat/ceiling_in.png",
+"fw": 46,
+"fh": 30,
+"n": 7,
+"fps": 12,
+"loop": false
+},
+"ceiling_out": {
+"file": "res://assets/enemies/bat/ceiling_out.png",
+"fw": 46,
+"fh": 30,
+"n": 7,
+"fps": 12,
+"loop": false
+},
+"flying": {
+"file": "res://assets/enemies/bat/flying.png",
+"fw": 46,
+"fh": 30,
+"n": 7,
+"fps": 16,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/bat/hit.png",
+"fw": 46,
+"fh": 30,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/bat/idle.png",
+"fw": 46,
+"fh": 30,
+"n": 12,
+"fps": 11,
+"loop": true
+}
+},
+"bee": {
+"attack": {
+"file": "res://assets/enemies/bee/attack.png",
+"fw": 36,
+"fh": 34,
+"n": 8,
+"fps": 14,
+"loop": false
+},
+"bullet_pieces": {
+"file": "res://assets/enemies/bee/bullet_pieces.png",
+"fw": 16,
+"fh": 16,
+"n": 2,
+"fps": 12,
+"loop": true
+},
+"bullet": {
+"file": "res://assets/enemies/bee/bullet.png",
+"fw": 16,
+"fh": 16,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/bee/hit.png",
+"fw": 36,
+"fh": 34,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/bee/idle.png",
+"fw": 36,
+"fh": 34,
+"n": 6,
+"fps": 11,
+"loop": true
+}
+},
+"bluebird": {
+"flying": {
+"file": "res://assets/enemies/bluebird/flying.png",
+"fw": 32,
+"fh": 32,
+"n": 9,
+"fps": 16,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/bluebird/hit.png",
+"fw": 32,
+"fh": 32,
+"n": 5,
+"fps": 16,
+"loop": false
+}
+},
+"bunny": {
+"fall": {
+"file": "res://assets/enemies/bunny/fall.png",
+"fw": 34,
+"fh": 44,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/bunny/hit.png",
+"fw": 34,
+"fh": 44,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/bunny/idle.png",
+"fw": 34,
+"fh": 44,
+"n": 8,
+"fps": 11,
+"loop": true
+},
+"jump": {
+"file": "res://assets/enemies/bunny/jump.png",
+"fw": 34,
+"fh": 44,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/bunny/run.png",
+"fw": 34,
+"fh": 44,
+"n": 12,
+"fps": 16,
+"loop": true
+}
+},
+"chameleon": {
+"attack": {
+"file": "res://assets/enemies/chameleon/attack.png",
+"fw": 84,
+"fh": 38,
+"n": 10,
+"fps": 14,
+"loop": false
+},
+"hit": {
+"file": "res://assets/enemies/chameleon/hit.png",
+"fw": 84,
+"fh": 38,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/chameleon/idle.png",
+"fw": 84,
+"fh": 38,
+"n": 13,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/chameleon/run.png",
+"fw": 84,
+"fh": 38,
+"n": 8,
+"fps": 16,
+"loop": true
+}
+},
+"chicken": {
+"hit": {
+"file": "res://assets/enemies/chicken/hit.png",
+"fw": 32,
+"fh": 34,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/chicken/idle.png",
+"fw": 32,
+"fh": 34,
+"n": 13,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/chicken/run.png",
+"fw": 32,
+"fh": 34,
+"n": 14,
+"fps": 16,
+"loop": true
+}
+},
+"duck": {
+"fall": {
+"file": "res://assets/enemies/duck/fall.png",
+"fw": 36,
+"fh": 36,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/duck/hit.png",
+"fw": 36,
+"fh": 36,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/duck/idle.png",
+"fw": 36,
+"fh": 36,
+"n": 10,
+"fps": 11,
+"loop": true
+},
+"jump": {
+"file": "res://assets/enemies/duck/jump.png",
+"fw": 36,
+"fh": 36,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"jump_anticipation": {
+"file": "res://assets/enemies/duck/jump_anticipation.png",
+"fw": 36,
+"fh": 36,
+"n": 4,
+"fps": 12,
+"loop": false
+}
+},
+"fatbird": {
+"fall": {
+"file": "res://assets/enemies/fatbird/fall.png",
+"fw": 40,
+"fh": 48,
+"n": 4,
+"fps": 12,
+"loop": true
+},
+"ground": {
+"file": "res://assets/enemies/fatbird/ground.png",
+"fw": 40,
+"fh": 48,
+"n": 4,
+"fps": 12,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/fatbird/hit.png",
+"fw": 40,
+"fh": 48,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/fatbird/idle.png",
+"fw": 40,
+"fh": 48,
+"n": 8,
+"fps": 11,
+"loop": true
+}
+},
+"ghost": {
+"appear": {
+"file": "res://assets/enemies/ghost/appear.png",
+"fw": 44,
+"fh": 30,
+"n": 4,
+"fps": 12,
+"loop": false
+},
+"desappear": {
+"file": "res://assets/enemies/ghost/desappear.png",
+"fw": 44,
+"fh": 30,
+"n": 4,
+"fps": 12,
+"loop": false
+},
+"hit": {
+"file": "res://assets/enemies/ghost/hit.png",
+"fw": 44,
+"fh": 31,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/ghost/idle.png",
+"fw": 44,
+"fh": 30,
+"n": 10,
+"fps": 11,
+"loop": true
+}
+},
+"mushroom": {
+"hit": {
+"file": "res://assets/enemies/mushroom/hit.png",
+"fw": 32,
+"fh": 32,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/mushroom/idle.png",
+"fw": 32,
+"fh": 32,
+"n": 14,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/mushroom/run.png",
+"fw": 32,
+"fh": 32,
+"n": 16,
+"fps": 16,
+"loop": true
+}
+},
+"plant": {
+"attack": {
+"file": "res://assets/enemies/plant/attack.png",
+"fw": 44,
+"fh": 42,
+"n": 8,
+"fps": 14,
+"loop": false
+},
+"bullet_pieces": {
+"file": "res://assets/enemies/plant/bullet_pieces.png",
+"fw": 16,
+"fh": 16,
+"n": 2,
+"fps": 12,
+"loop": true
+},
+"bullet": {
+"file": "res://assets/enemies/plant/bullet.png",
+"fw": 16,
+"fh": 16,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/plant/hit.png",
+"fw": 44,
+"fh": 42,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/plant/idle.png",
+"fw": 44,
+"fh": 42,
+"n": 11,
+"fps": 11,
+"loop": true
+}
+},
+"radish": {
+"hit": {
+"file": "res://assets/enemies/radish/hit.png",
+"fw": 30,
+"fh": 38,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle_1": {
+"file": "res://assets/enemies/radish/idle_1.png",
+"fw": 30,
+"fh": 38,
+"n": 6,
+"fps": 11,
+"loop": true
+},
+"idle_2": {
+"file": "res://assets/enemies/radish/idle_2.png",
+"fw": 30,
+"fh": 38,
+"n": 9,
+"fps": 11,
+"loop": true
+},
+"leafs": {
+"file": "res://assets/enemies/radish/leafs.png",
+"fw": 16,
+"fh": 16,
+"n": 2,
+"fps": 12,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/radish/run.png",
+"fw": 30,
+"fh": 38,
+"n": 12,
+"fps": 16,
+"loop": true
+}
+},
+"rino": {
+"hit": {
+"file": "res://assets/enemies/rino/hit.png",
+"fw": 52,
+"fh": 34,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"hit_wall": {
+"file": "res://assets/enemies/rino/hit_wall.png",
+"fw": 52,
+"fh": 34,
+"n": 4,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/rino/idle.png",
+"fw": 52,
+"fh": 34,
+"n": 11,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/rino/run.png",
+"fw": 52,
+"fh": 34,
+"n": 6,
+"fps": 16,
+"loop": true
+}
+},
+"rock1": {
+"hit": {
+"file": "res://assets/enemies/rock1/hit.png",
+"fw": 38,
+"fh": 34,
+"n": 1,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/rock1/idle.png",
+"fw": 38,
+"fh": 34,
+"n": 14,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/rock1/run.png",
+"fw": 38,
+"fh": 34,
+"n": 14,
+"fps": 16,
+"loop": true
+}
+},
+"rock2": {
+"hit": {
+"file": "res://assets/enemies/rock2/hit.png",
+"fw": 32,
+"fh": 28,
+"n": 1,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/rock2/idle.png",
+"fw": 32,
+"fh": 28,
+"n": 13,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/rock2/run.png",
+"fw": 32,
+"fh": 28,
+"n": 14,
+"fps": 16,
+"loop": true
+}
+},
+"rock3": {
+"hit": {
+"file": "res://assets/enemies/rock3/hit.png",
+"fw": 22,
+"fh": 18,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/rock3/idle.png",
+"fw": 22,
+"fh": 18,
+"n": 11,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/rock3/run.png",
+"fw": 22,
+"fh": 18,
+"n": 14,
+"fps": 16,
+"loop": true
+}
+},
+"skull": {
+"hit": {
+"file": "res://assets/enemies/skull/hit.png",
+"fw": 52,
+"fh": 54,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"hit_wall_1": {
+"file": "res://assets/enemies/skull/hit_wall_1.png",
+"fw": 52,
+"fh": 54,
+"n": 7,
+"fps": 16,
+"loop": false
+},
+"hit_wall_2": {
+"file": "res://assets/enemies/skull/hit_wall_2.png",
+"fw": 52,
+"fh": 54,
+"n": 7,
+"fps": 16,
+"loop": false
+},
+"idle_1": {
+"file": "res://assets/enemies/skull/idle_1.png",
+"fw": 52,
+"fh": 54,
+"n": 8,
+"fps": 11,
+"loop": true
+},
+"idle_2": {
+"file": "res://assets/enemies/skull/idle_2.png",
+"fw": 52,
+"fh": 54,
+"n": 8,
+"fps": 11,
+"loop": true
+},
+"orange_particle": {
+"file": "res://assets/enemies/skull/orange_particle.png",
+"fw": 16,
+"fh": 16,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"red_particle": {
+"file": "res://assets/enemies/skull/red_particle.png",
+"fw": 16,
+"fh": 16,
+"n": 1,
+"fps": 12,
+"loop": true
+}
+},
+"slime": {
+"hit": {
+"file": "res://assets/enemies/slime/hit.png",
+"fw": 44,
+"fh": 30,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle_run": {
+"file": "res://assets/enemies/slime/idle_run.png",
+"fw": 44,
+"fh": 30,
+"n": 10,
+"fps": 11,
+"loop": true
+}
+},
+"snail": {
+"hit": {
+"file": "res://assets/enemies/snail/hit.png",
+"fw": 38,
+"fh": 24,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/snail/idle.png",
+"fw": 38,
+"fh": 24,
+"n": 15,
+"fps": 11,
+"loop": true
+},
+"shell_idle": {
+"file": "res://assets/enemies/snail/shell_idle.png",
+"fw": 38,
+"fh": 24,
+"n": 6,
+"fps": 12,
+"loop": true
+},
+"shell_top_hit": {
+"file": "res://assets/enemies/snail/shell_top_hit.png",
+"fw": 38,
+"fh": 24,
+"n": 5,
+"fps": 12,
+"loop": true
+},
+"shell_wall_hit": {
+"file": "res://assets/enemies/snail/shell_wall_hit.png",
+"fw": 38,
+"fh": 24,
+"n": 4,
+"fps": 12,
+"loop": true
+},
+"snail_without_shell": {
+"file": "res://assets/enemies/snail/snail_without_shell.png",
+"fw": 38,
+"fh": 24,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"walk": {
+"file": "res://assets/enemies/snail/walk.png",
+"fw": 38,
+"fh": 24,
+"n": 10,
+"fps": 16,
+"loop": true
+}
+},
+"trunk": {
+"attack": {
+"file": "res://assets/enemies/trunk/attack.png",
+"fw": 64,
+"fh": 32,
+"n": 11,
+"fps": 14,
+"loop": false
+},
+"bullet_pieces": {
+"file": "res://assets/enemies/trunk/bullet_pieces.png",
+"fw": 16,
+"fh": 16,
+"n": 2,
+"fps": 12,
+"loop": true
+},
+"bullet": {
+"file": "res://assets/enemies/trunk/bullet.png",
+"fw": 16,
+"fh": 16,
+"n": 1,
+"fps": 12,
+"loop": true
+},
+"hit": {
+"file": "res://assets/enemies/trunk/hit.png",
+"fw": 64,
+"fh": 32,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle": {
+"file": "res://assets/enemies/trunk/idle.png",
+"fw": 64,
+"fh": 32,
+"n": 18,
+"fps": 11,
+"loop": true
+},
+"run": {
+"file": "res://assets/enemies/trunk/run.png",
+"fw": 64,
+"fh": 32,
+"n": 14,
+"fps": 16,
+"loop": true
+}
+},
+"turtle": {
+"hit": {
+"file": "res://assets/enemies/turtle/hit.png",
+"fw": 44,
+"fh": 26,
+"n": 5,
+"fps": 16,
+"loop": false
+},
+"idle_1": {
+"file": "res://assets/enemies/turtle/idle_1.png",
+"fw": 44,
+"fh": 26,
+"n": 14,
+"fps": 11,
+"loop": true
+},
+"idle_2": {
+"file": "res://assets/enemies/turtle/idle_2.png",
+"fw": 44,
+"fh": 26,
+"n": 14,
+"fps": 11,
+"loop": true
+},
+"spikes_in": {
+"file": "res://assets/enemies/turtle/spikes_in.png",
+"fw": 44,
+"fh": 26,
+"n": 8,
+"fps": 12,
+"loop": false
+},
+"spikes_out": {
+"file": "res://assets/enemies/turtle/spikes_out.png",
+"fw": 44,
+"fh": 26,
+"n": 8,
+"fps": 12,
+"loop": false
+}
+},
+"coin": {
+"spin": {
+"file": "res://assets/gen/coin.png",
+"fw": 16,
+"fh": 16,
+"n": 8,
+"fps": 12,
+"loop": true,
+"start": 0
+}
+},
+"gem": {
+"spin": {
+"file": "res://assets/gen/gem.png",
+"fw": 16,
+"fh": 16,
+"n": 8,
+"fps": 10,
+"loop": true,
+"start": 0
+}
+},
+"spring": {
+"idle": {
+"file": "res://assets/gen/spring.png",
+"fw": 16,
+"fh": 16,
+"n": 1,
+"fps": 1,
+"loop": false,
+"start": 0
+},
+"boing": {
+"file": "res://assets/gen/spring.png",
+"fw": 16,
+"fh": 16,
+"n": 1,
+"fps": 1,
+"loop": false,
+"start": 1
+}
+},
+"checkpoint": {
+"off": {
+"file": "res://assets/gen/checkpoint.png",
+"fw": 16,
+"fh": 32,
+"n": 1,
+"fps": 1,
+"loop": false,
+"start": 0
+},
+"on": {
+"file": "res://assets/gen/checkpoint.png",
+"fw": 16,
+"fh": 32,
+"n": 4,
+"fps": 8,
+"loop": true,
+"start": 1
+}
+},
+"goal": {
+"wave": {
+"file": "res://assets/gen/goal.png",
+"fw": 32,
+"fh": 48,
+"n": 4,
+"fps": 8,
+"loop": true,
+"start": 0
+}
+}
+}
